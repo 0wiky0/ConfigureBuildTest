@@ -30,6 +30,14 @@ android {
         }
     }
 
+    productFlavors {
+        free {
+        }
+
+        paid {
+        }
+    }
+
 
 }
 
@@ -41,4 +49,6 @@ dependencies {
 
     debugCompile project(path: ':mylibrary', configuration: 'debug')
     releaseCompile project(path: ':mylibrary', configuration: 'release')
+
+//    freeCompile project(path: ':mylibrary', configuration: 'debug')
 }
