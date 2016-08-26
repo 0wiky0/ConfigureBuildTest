@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Util.getTag() 根据其返回的信息，就可以知道当前版本是否切换成功
-                Snackbar.make(view, Util.getTag(), Snackbar.LENGTH_LONG)
+                Snackbar.make(view, LibUtil.getTag(), Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
